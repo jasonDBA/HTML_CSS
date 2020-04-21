@@ -10,5 +10,5 @@ This git repository contains simple home page coding sources using HTML and CSS.
 4. Run the file in MS Expression Web 4
 
 ## Reference
--How to download MS Expression Web 4?
+* How to download MS Expression Web 4?
 Youtube URL: https://www.youtube.com/watch?v=G24ogQgztdg
