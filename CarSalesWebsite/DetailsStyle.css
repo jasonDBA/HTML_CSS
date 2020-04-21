@@ -1,0 +1,29 @@
+﻿h2 {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	text-align: center;
+}
+legend {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: xx-large;
+	color: #333333;
+	font-style: italic;
+}
+td {
+	text-align: center;
+}
+fieldset {
+	border: medium solid #1F3E7C;
+}
+a {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: #000066;
+	text-decoration: underline overline blink;
+}
+a:hover {
+	background-color: #BFD5EA;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}

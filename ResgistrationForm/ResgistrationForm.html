@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week08</title>
+<meta content="Example" name="keywords">
+<meta content="HTML forms" name="description">
+<link href="Week08Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<h1>centennial college - registration form</h1>
+</header>
+<footer>
+	<form action="amsxma33@gmail.com" method="post">
+		<table style="width: 100%">
+			<tr>
+				<td class="formField">First Name:</td>
+				<td>
+				<input name="txtFirstName" size="25" tabindex="1" type="text"></td>
+			</tr>
+			<tr>
+				<td class="formField">Last Name:</td>
+				<td>
+				<input name="txtLastName" size="25" tabindex="3" type="text"></td>
+			</tr>
+			<tr>
+				<td class="formField">Email:</td>
+				<td><input name="txtEmail" size="30" tabindex="5" type="text"></td>
+			</tr>
+			<tr>
+				<td class="formField">Create Pwd:</td>
+				<td>
+				<input name="txtCreatePwd" size="16" tabindex="7" type="password"></td>
+			</tr>
+			<tr>
+				<td class="formField">Confirm Pwd:</td>
+				<td>
+				<input name="txtConfirmPwd" size="16" tabindex="9" type="password"></td>
+			</tr>
+			<tr>
+				<td class="formField">Gender:</td>
+				<td>
+				<input checked="checked" name="optGender" tabindex="11" type="radio" value="M">M
+				<input name="optGender" tabindex="13" type="radio" value="F">F</td>
+			</tr>
+			<tr>
+				<td class="formField">Education:</td>
+				<td>
+				<input checked="checked" name="optEducation" tabindex="15" type="radio" value="Secondary" style="height: 20px">Secondary
+				<input name="optEducation" tabindex="17" type="radio" value="College">College
+				<input name="optEducation" tabindex="19" type="radio" value="Ugrad">Ugrad
+				<input name="optEducation" tabindex="21" type="radio" value="Grad">Grad
+				<input name="optEducation" tabindex="23" type="radio" value="Pgrad">Pgrad</td>
+			</tr>
+			<tr>
+				<td class="formField">Computer Knowledge:</td>
+				<td>
+				<input name="chkOS" tabindex="25" type="checkbox" value="OS">OS
+				<input name="chkNet" tabindex="27" type="checkbox" value="Networking">Networking
+				<input name="chkPro" tabindex="29" type="checkbox" value="Programming">Programming
+				<input name="chkWeb" tabindex="31" type="checkbox" value="WebDesign">Web 
+				Design
+				<input name="chkDB" style="height: 20px" tabindex="33" type="checkbox" value="DB">DB</td>
+			</tr>
+			<tr>
+				<td class="formField">Select Courses:</td>
+				<td>
+				<select multiple="multiple" name="sltCourses" size="4" tabindex="35">
+				<option value="COMP100">COMP100 Programming 1</option>
+				<option value="COMP125">COMP125 Client Side Development</option>
+				<option value="COMP213">COMP213 Web Interface Design</option>
+				<option value="COMP225">COMP225 Systems 1</option>
+				<option value="COMP229">COMP229 Server Side Development</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td class="formField">Special Requests:</td>
+				<td>
+				<textarea cols="50" name="txtSpecialReq" rows="7" tabindex="37">---Please let us know about any special needs you may have ( e.g. assisted typng, closed captioning, etc.)---</textarea></td>
+			</tr>
+			<tr>
+				<td class="formField">
+				<input name="btnRegister" tabindex="39" type="submit" value="Register Now"></td>
+				<td>
+				<input name="btnReset" tabindex="41" type="reset" value="Start Again"><br>
+				</td>
+			</tr>
+		</table>
+	</form>
+</footer>
+<p id="copyright">&copy;&nbsp;CopyRight Choi Jabin - 300974443 - COMP213 - HTML - Week08</p>
+</div>
+</body>
+
+</html>

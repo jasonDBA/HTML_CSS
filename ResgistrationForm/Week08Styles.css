@@ -1,0 +1,28 @@
+﻿h1 {
+	background-image: url('images/CC50thAnniversary.jpg');
+	background-repeat: no-repeat;
+	height: 200px;
+	font-size: 2em;
+	color: #666633;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	padding-left: 205px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	background-image: url('images/trilliumgradient.png');
+}
+.formField {
+	list-style-type: .fi;
+	vertical-align: top;
+	text-align: right;
+}
+#copyright {
+	font-size: x-small;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}

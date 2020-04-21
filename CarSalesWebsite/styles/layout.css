@@ -1,0 +1,103 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#container {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#masthead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#sidebar {
+	margin: 0;
+	padding: 10 0 10 0;
+	border: 0;
+}
+#content {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.float_right {
+	float:right;
+}
+a:hover {
+	background-color: #A9FAFE;
+}
+h2 {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: #000040;
+	font-weight: bold;
+}
+p {
+	font-family: Arial;
+	font-size: small;
+	color: #000000;
+}
+h3 {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: bold;
+	color: #000040;
+}
+table {
+	border: thin solid #111188;
+}
+h4 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: large;
+	font-weight: bold;
+	background-color: #3D3D3D;
+	color: #FFFFFF;
+}
+a {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	color: #000040;
+	text-decoration: underline overline blink;
+	text-align: right;
+}
+a:hover {
+	background-color: #A9FAFE;
+}
+legend {
+	padding: 15px;
+	background-image: url('../images/imagesContacts/Legend.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: #FFFFFF;
+	font-size: medium;
+	font-style: italic;
+}
+#submit {
+	text-align: right;
+}
+#siteMap {
+	text-align: left;
+}
+li {
+	font-size: x-small;
+}
+#main list {
+	text-align: center;
+}
+#siteMap {
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #000064;
+}
+#border {
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #000040;
+}
